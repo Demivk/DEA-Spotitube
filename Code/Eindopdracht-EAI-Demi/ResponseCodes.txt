@@ -1,0 +1,17 @@
+- 200: OK. A response to a successful GET, PUT or DELETE.
+    private static final String HTTP_STATUS_200 = "200 OK";
+
+- 201: Resource has been created. A response to a successful POST.
+    private static final String HTTP_STATUS_201 = "201 Resource has been created";
+
+- 400: Bad Request. Something is wrong with the request. This could be due to a missing query-parameter for the token.
+    private static final String HTTP_STATUS_400 = "400 Bad request";
+
+- 401: Unauthorized. Authorization has failed. This can happen if the user tried to log in, but supplied an invalid user/password.
+    private static final String HTTP_STATUS_401 = "401 Unauthorized";
+
+- 403: Forbidden. The request was valid, but you have requested a resource for which are not authorized. This will probably mean you have provided a token that is invalid.
+    private static final String HTTP_STATUS_403 = "403 Forbidden";
+
+- 404: Not found. You have requested an endpoint that is not available.
+    private static final String HTTP_STATUS_404 = "404 Not found";

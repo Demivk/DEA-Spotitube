@@ -1,0 +1,70 @@
+# Eclipse
+<<<<<<< HEAD
+
+.classpath
+
+.project
+
+.settings/
+
+
+
+# Intellij
+
+.idea/
+
+*.iml
+
+*.iws
+
+
+
+# Mac
+
+.DS_Store
+
+
+
+# Maven
+
+log/
+
+=======
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+>>>>>>> 9fff6b868d44aa0d49b972771421e151fa13afe8
+target/
+
+pom.xml.tag
+
+pom.xml.releaseBackup
+
+pom.xml.versionsBackup
+
+pom.xml.next
+
+release.properties
+
+dependency-reduced-pom.xml
+
+buildNumber.properties
+
+.mvn/timing.properties
+
+
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+
+!/.mvn/wrapper/maven-wrapper.jar
